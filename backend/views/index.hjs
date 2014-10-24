@@ -330,7 +330,7 @@
                         Acceptance tests on <a href="http://www.seleniumhq.org/" target="_blank">Selenium</a> engine.
                         And running all above in <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> and
                         desktop browsers. Continuous integration using <a href="http://jenkins-ci.org/" target="_blank">Jenkins</a>
-                        and automatic deployment utilizing AWS solutions: EC2, RDS, S3, etc.
+                        and automatic deployment utilizing <a href="http://heroku.com">Heroku</a> and AWS solutions: EC2, RDS, S3, etc.
                     </p>
                 </div>
 
