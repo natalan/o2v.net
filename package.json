@@ -6,7 +6,7 @@
       "node": "0.10.x"
   },
   "scripts": {
-    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt build-heroku"
+    "postinstall": "node node_modules/grunt-cli/bin/grunt build-heroku"
   },
   "description": "Andrei Zharov :: Personal site",
   "dependencies": {
