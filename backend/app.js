@@ -17,6 +17,13 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hjs");
 
 // TODO: add CSRF from https://github.com/expressjs/csurf
+app.get('/*', function(req, res, next) {
+    if (req.headers.host.indexOf("o2v-net.herokuapp.com") !== -1 ) {
+        res.redirect(301, "http://" + req.headers.host.replace("o2v-net.herokuapp.com", "www.o2v.net") + req.url);
+    } else {
+        next();
+    }
+});
 
 app.use(require("serve-favicon")(path.join(path.dirname(__dirname),  "frontend/favicon.ico")));
 app.use(require("morgan")(config.get("app.logFormat")));
