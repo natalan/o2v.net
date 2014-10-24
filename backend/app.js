@@ -62,12 +62,10 @@ app.get("/", apiIndex.getRoot);
 app.get("/version", apiIndex.getVersion);
 app.get("/health", apiIndex.getHealth);
 
-// if not picked any route then catch 404 and forward to error handler
+// if not picked any route then show homepage and forward to error handler
 /* istanbul ignore next */
 app.use(function(req, res, next) {
-    var err = new Error("Not Found");
-    err.status = 404;
-    next(err);
+    res.redirect(301, "/");
 });
 
 // error handlers
