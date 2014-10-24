@@ -288,7 +288,7 @@
                         <a href="http://underscorejs.org/" target="_blank">Underscore.js</a>.
                         All glued with <a href="http://requirejs.org/" target="_blank">Require.js</a> with CommonJS
                         module <a href="http://wiki.commonjs.org/wiki/Modules/1.1.1" target="_blank">format</a>.<br/>
-                        I have strong <b>negative</b> opinion about "convention over configuration" concept frameworks
+                        I also have experience using "convention over configuration" concept frameworks
                         such as <a href="http://emberjs.com/" target="_blank">Ember.js</a>,
                         <a href="http://knockoutjs.com/" target="_blank">Knockout.js</a> and
                         <a href="https://angularjs.org/" target="_blank">Angular.js</a>.
