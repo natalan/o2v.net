@@ -40,8 +40,10 @@
         <h2 class="section-title">About Me</h2>
         <p>
             Usability engineer and passionate front-end JavaScript developer with more than 8 years of work experience
-            including mobile/desktop applications development at <a href="http://www.nokia.com" target="_blank">Nokia</a>, web-based HR tools for nearly 80 percent of the
-            Fortune 100 companies at <a href="http://www.peoplefluent.com" target="_blank">PeopleFluent</a>, and web campaigns for more than 50 percent of all federal elections
+            including mobile/desktop applications development at <a href="http://www.nokia.com" target="_blank">Nokia</a>,
+            web-based HR tools for nearly 80 percent of the Fortune 100 companies at
+            <a href="http://www.peoplefluent.com" target="_blank">PeopleFluent</a>,
+            and web campaigns for more than 50 percent of all federal elections
             in the US at <a href="http://www.libertyconcepts.com" target="_blank">Liberty&nbsp;Concepts</a>.
         </p>
     </article>
@@ -185,7 +187,8 @@
                 <div class="smaller-text">
                     <ul>
                         <li>Led UI development of cutting edge award-winning HTML5/CSS3 mobile and desktop
-                            applications.</li>
+                            applications.
+                            <a href="http://www.google.com/patents/US20130159203" target="_blank">Patent</a> holder.</li>
                         <li>Created, enhanced, maintained, and tested software UI framework components.</li>
                         <li>Mentored other developers, and coordinating activities with the development
                             team across the globe.</li>
@@ -269,10 +272,10 @@
             <div class="skills-group">
                 <h3 class="description">Front-End Development</h3>
                 <div class="skill">
-                    <h4>Vanilla JavaScript</h4>
+                    <h4>Core strengths</h4>
                     <p>
                         Expert-level proficiency in JavaScript,latest HTML5 APIs, JS design patterns, and new updates to
-                        language standards.
+                        language standards. Award-winning HTML/CSS3 websites, platforms, and apps.
                     </p>
                 </div>
                 <div class="skill">
