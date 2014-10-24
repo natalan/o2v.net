@@ -134,7 +134,7 @@ module.exports = function(grunt) {
                     mainConfigFile: "frontend/javascripts/init.js",
                     out: "frontend/javascripts.min.js",
                     name: "init",
-                    optimize: "none",
+                    optimize: "uglify2",
                     done: function (done, output) {
                         done();
                     },
