@@ -1,0 +1,13 @@
+{
+    "env": "dev",
+    "app": {
+        "secret": "Люби и уважай гусей на Деве"
+    },
+    "build": {
+        "minimize": true
+    },
+    "host": {
+        "port": 8080,
+        "url": "http://dev.o2v.net"
+    }
+}

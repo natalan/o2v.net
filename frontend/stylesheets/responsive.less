@@ -1,0 +1,325 @@
+/*
+
+  Style adjustments for various windows sizes.
+
+*/
+
+@media only screen and (max-width: 960px) { /* Smaller than desktop */
+    .wrap-footer, #container {
+        min-width: 94%;
+        width: 94%;
+        margin: 2.4% auto;
+    }
+
+    .column {
+        padding: 0 0 0 11%;
+    }
+
+    .column-no-logo {
+        padding: 0;
+    }
+
+    .skills {
+        width: auto;
+        text-align: left;
+
+        p {
+            padding: 20px 0 10px 0;
+            position: relative;
+            text-align: left;
+        }
+        .caption {
+            top: -10px;
+            padding: 0;
+            width: 100% !important;
+            text-align: left;
+        }
+        br {
+            display: none;
+        }
+    }
+
+    #container {
+        &:before, &:after {
+            display: none;
+        }
+    }
+
+    .row-profile {
+        .info {
+            width: 50%;
+        }
+    }
+
+    .profile-pic {
+        width: 40%;
+        margin: 0;
+        img {
+            width: 100%;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* iPad size */
+    .wrap-footer, #container {
+        min-width: 94%;
+        width: 94%;
+        margin: 2.4% auto;
+    }
+
+    .wrap-footer {
+        .fl, .fr {
+            float: none;
+            display: block;
+            text-align: left;
+            padding: 0 3px;
+            margin: 0;
+        }
+        .fl {
+            padding-bottom: 5px;
+        }
+    }
+
+    .wrap-header article,
+    .row article {
+        width: 90%;
+    }
+
+    .skills-group,
+    .column, .full-column {
+        width: 100%;
+        padding: 0 0 1.125em 0px;
+        float: none;
+    }
+
+    .column, .full-column {
+        &:last-child {
+            padding-bottom: 0;
+        }
+        .logo {
+            width: 50px;
+            position: absolute;
+            right: 0;
+            left: auto;
+
+            img {
+                max-width: 100%;
+            }
+        }
+        ul {
+            padding-left: 0;
+        }
+    }
+
+    .column-row .column:last-child {
+        margin-bottom: 0;
+    }
+
+    .skills-group,
+    .column-no-logo {
+        padding: 0;
+        margin: 0 0 3.125em 0;
+        width: 100%;
+    }
+
+    .portfolio {
+        margin: 0 0 3.125em 0;
+        width: 100%;
+
+        li {
+            width: 48%;
+            margin: 0 0 3% 0;
+
+            &:nth-child(2n) {
+                float: right;
+            }
+
+            .border {
+                border-width: 5px;
+            }
+        }
+    }
+
+    .wrap-header {
+        article p {
+            clear: left;
+        }
+        .social-services {
+
+            clear: both;
+            position: static;
+            float: left;
+            margin: 15px 0 -20px 0;
+            width: auto;
+
+            & > * {
+                float: left;
+            }
+        }
+    }
+
+    .skills {
+        width: auto;
+        text-align: left;
+    }
+
+    #container:before,
+    #container:after,
+    .skills br {
+        display: none;
+    }
+
+    .skills p {
+        padding: 20px 0 10px 0;
+        position: relative;
+        text-align: left;
+    }
+
+    .skills .caption {
+        top: -10px;
+        padding: 0;
+        width: 100% !important;
+        text-align: left;
+    }
+
+    .icons {
+        margin: 0;
+        li {
+            width: 20%;
+            padding: 1em 0 0 0;
+        }
+        a {
+            padding: 0;
+            text-indent: -9999px;
+
+            img {
+                left: 50%;
+                margin: 0 0 0 -24px;
+            }
+        }
+    }
+
+    .row-icon article {
+        padding: 0 0 1em;
+    }
+
+    .markup p {
+        line-height: 1.5625em;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    .wrap-ribbons {
+        padding-left: 0;
+        position: absolute;
+        float: none;
+        right: -10px;
+    }
+
+    .wrap-title {
+        clear: left;
+    }
+
+    .portfolio {
+        margin: 0 0 1.125em 0;
+        width: 100%;
+
+        li {
+            width: 99%;
+            margin: 0 0 10% 0;
+            float: none;
+            .project-screen {
+                height: 250px;
+            }
+        }
+    }
+
+
+    .profile-pic {
+        clear: both;
+        float: left;
+        width: auto;
+        margin: 1.125em 0 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) { /* Most phones */
+
+    .skills-group,
+    .column, .full-column {
+        padding-left: 0;
+    }
+
+    .full-column, .column {
+        .logo {
+            display: none;
+        }
+    }
+
+    .markup blockquote {
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 320px) { /* iPhone in portrait orientation */
+
+    .wrap-footer, #container {
+        margin: 2.7% auto !important;
+    }
+
+    .wrap-title {
+        padding: 40px 0 50px 0;
+    }
+
+    .social-services {
+        display: none;
+    }
+
+    .ribbon, .ribbon2, .ribbon3 {
+        background: #3A954D;
+        height: auto;
+        padding: 2px 4px 2px;
+        clear: right;
+        margin: 0 0 4px;
+    }
+
+    .ribbon2 {
+        background: #0893B3;
+    }
+
+    .ribbon3 {
+        background: #DB7229;
+    }
+
+    .ribbon em, .ribbon2 em, .ribbon3 em {
+        font-size: 1em;
+        font-family: inherit;
+        display: inline;
+    }
+
+    .wrap-header article,
+    .row article {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .row-icon article {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .wrap-ribbons {
+        margin-top: -30px;
+    }
+
+}

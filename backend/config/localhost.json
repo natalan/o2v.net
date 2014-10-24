@@ -1,0 +1,14 @@
+{
+    "env": "localhost",
+    "app": {
+        "secret": "Люби и уважай гусей",
+        "logFormat": "dev"
+    },
+    "build": {
+        "minimize": false
+    },
+    "host": {
+        "port": 3000,
+        "url": "http://localhost:3000"
+    }
+}

@@ -1,0 +1,101 @@
+.wrap-footer, #container {
+    min-width: 960px;
+    width: 960px;
+    margin: 25px auto;
+    background: #fff;
+}
+
+.wrap-header article, .row article {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding: 3.125em 0;
+    zoom: 1;
+}
+
+.row article > :last-child {
+    margin-bottom: 0;
+}
+
+.wrap-header article {
+    overflow: visible;
+}
+
+.wrap-footer {
+    font-size: 11px;
+    line-height: 16px;
+    color: #999;
+    padding: 0 0 10px 0;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    background: none;
+    overflow: hidden;
+    zoom: 1;
+    letter-spacing: 0.04em;
+
+    .fl {
+        margin-left: 2px;
+        padding-left: 10px;
+
+    }
+
+    .fr {
+        text-align: right;
+        margin-right: 2px;
+        padding-right: 10px;
+    }
+}
+
+.wrap-header article p, .row p {
+    clear: both;
+}
+
+.skills-group, .column {
+    width: 37%;
+    margin: 0 3% 0 0;
+    padding: 0 0 0 90px;
+    float: left;
+    position: relative;
+}
+
+.full-column {
+    position: relative;
+    padding: 0 0 0 90px;
+}
+
+.oldie .skills-group, .oldie .column {
+    width: 36%;
+    margin: 0 10px 0 0;
+}
+
+.skills-group, .column-no-logo {
+    padding-left: 0;
+    width: 47%;
+    margin-right: 6%;
+}
+
+.column-no-logo a.logo {
+    display: none;
+}
+
+.column-row {
+    clear: both;
+    margin: 40px 0 0;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.skills-with-ratings .skills-group:nth-child(2n),
+.column-row .column:last-child {
+    margin-right: 0;
+}
+
+.fixed-layout {
+    #container, .wrap-footer {
+        min-width: 960px;
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

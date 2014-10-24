@@ -1,0 +1,4 @@
+{
+    "env": "production",
+    "api": "https://www.o2v.net/api"
+}

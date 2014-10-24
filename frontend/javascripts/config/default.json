@@ -1,0 +1,12 @@
+{
+    "api": "/api",
+    "cache": {
+        "enabled": true,
+        "expires": false
+    },
+    "defaultPage": {
+        "loggedIn": "",
+        "notLoggedIn": "#/"
+    },
+    "debug": false
+}

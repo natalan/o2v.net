@@ -1,0 +1,13 @@
+{
+    "env": "production",
+    "app": {
+        "secret": "Люби гусей"
+    },
+    "build": {
+        "minimize": true
+    },
+    "host": {
+        "port": 8080,
+        "url": "http://www.o2v.net"
+    }
+}

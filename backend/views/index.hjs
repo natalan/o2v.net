@@ -1,0 +1,447 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0">
+    <meta name="description" content="Andrei Zharov :: personal website">
+    <meta name="author" content="Andrei Zharov">
+    <!-- <meta property="og:image" content=""> -->
+
+    <title>{{ title }}</title>
+    {{#minimize}}
+        <link rel="stylesheet" href="stylesheets.min.css" />
+    {{/minimize}}
+    {{^minimize}}
+        <link rel='stylesheet' href='/stylesheets/main.css' />
+    {{/minimize}}
+</head>
+<body>
+<div id="container">
+
+<header class="wrap-header">
+    <article>
+        <div class="wrap-title">
+            <h1><span>Andrei&nbsp;&nbsp;Zharov</span></h1>
+            <p>dexterous ui engineer</p>
+        </div>
+        <div class="wrap-ribbons">
+            <a class="ribbon ribbon" href="http://resume.linkedinlabs.com/o5ayu163w" target="_blank">Download <em>CV</em></a>
+        </div>
+        <div class="social-services">
+        </div>
+    </article>
+</header>
+
+<div class="row row-info">
+    <article class="markup">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            Usability engineer and passionate front-end JavaScript developer with more than 8 years of work experience
+            including mobile/desktop applications development at Nokia, web-based HR tools for nearly 80 percent of the
+            Fortune 100 companies at Peoplefluent, and web campaigns for more than 50 percent of all federal elections
+            in the US at Liberty Concepts.
+        </p>
+    </article>
+</div>
+
+<div class="row row-portfolio">
+    <article>
+        <h2 class="section-title">Projects</h2>
+        <ul class="portfolio">
+
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/cuomo.png')"></div>
+                    <div class="mask">
+                        <h2>Andrew Cuomo for Governor</h2>
+                        <p>2010 Democratic candidate web campaign for the governor of New York.</p>
+                        <a href="https://www.behance.net/gallery/1778742/Andrew-Cuomo-for-Governor" target="_blank" class="view">Open in Behance</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/ipadapps.png')"></div>
+                    <div class="mask">
+                        <h2>Mobile Talent Management suite</h2>
+                        <p>Suite of iPad apps for HR: recruiting, performance, compensation, communication</p>
+                        <a href="https://www.behance.net/gallery/11815281/Mobile-Talent-Management-app" target="_blank" class="view">Open in Behance</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/profiles.png')"></div>
+                    <div class="mask">
+                        <h2>Nokia Profiles</h2>
+                        <p>User identity service for Nokia Here platform. Lets you build elegant personal profile page to highlight your favorite places.</p>
+                        <a href="https://www.behance.net/gallery/11817931/Nokia-Profiles" target="_blank" class="view">Open in Behance</a>
+
+                    </div>
+                </div>
+            </li>
+
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/rms.png')"></div>
+                    <div class="mask">
+                        <h2>Recruiting Management System</h2>
+                        <p>
+                            SaaS tool for recruiters and managers. Actively used by hundreds of companies from Fortune&nbsp;1000
+                        </p>
+                        <a href="https://www.behance.net/gallery/11815681/Recruiting-Management-System" target="_blank" class="view">Open in Behance</a>
+
+                    </div>
+                </div>
+            </li>
+
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/pulse.png')"></div>
+                    <div class="mask">
+                        <h2>Nokia Pulse</h2>
+                        <p>Nokia Pulse is smarter messaging. It lets you easily send private messages that are automatically tagged with your current location</p>
+                        <a href="https://www.behance.net/gallery/11818395/Nokia-Pulse" class="view" target="_blank">Open in Behance</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/asp.png')"></div>
+                    <div class="mask">
+                        <h2>Appalachia Service Project</h2>
+                        <p>Volunteer organization concerned with home repair for
+                            low-income families and free home construction.</p>
+                        <a href="https://www.behance.net/gallery/11815045/ASP" class="view">Open in Behance</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+    </article>
+</div>
+
+<div class="row row-experience">
+    <article>
+        <h2 class="section-title">Experience</h2>
+
+        <div class="column-row">
+
+            <div class="full-column">
+                <h3>Senior Software UI Engineer</h3>
+
+                <!-- Logo on the left of the column -->
+                <a href="http://nokia.com" target="_blank" class="logo">
+                    <img src="/images/misc/nokia.png" alt="Nokia" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://nokia.com" target="_blank">Nokia</a> &mdash; Telecommunication<br />
+                    3 years, 11/2011 &mdash; present
+                </p>
+                <div class="smaller-text">
+                    <ul>
+                        <li>Developed highly scalable JavaScript applications and prototypes using Backbone.js,
+                            Marionette.js, Angular.js and other latest JS technologies and frameworks.</li>
+                        <li>Architected and implemented multiple Node.js backends. Tested with Karma, Mocha, Jasmine,
+                            and ran the infrastructure in AWS utilizing Jenkins, Grunt, and Forever.</li>
+                        <li>Developed Nokia Profiles - user identity service for Nokia/Here platform using Ruby on Rails
+                            and Backbone.js</li>
+                        <li>Implemented integrations with Nokia Maps, Nokia Places API, and Nokia's backend
+                            platforms.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-row">
+            <div class="column">
+                <h3>Software UX Engineer</h3>
+
+                <a href="http://peoplefluent.com" target="_blank" class="logo" title="Peoplefluent">
+                    <img src="/images/misc/pf.png" alt="Peoplefluent" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://peoplefluent.com" target="_blank">Peoplefluent</a> &mdash; Human capital management software<br />
+                    1.5 years, 08/2010 &mdash; 11/2011
+                </p>
+                <div class="smaller-text">
+                    <ul>
+                        <li>Led UI development of cutting edge award-winning HTML5/CSS3 mobile and desktop
+                            applications.</li>
+                        <li>Created, enhanced, maintained, and tested software UI framework components.</li>
+                        <li>Mentored other developers, and coordinating activities with the development
+                            team across the globe.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3>Lead Web Developer</h3>
+
+                <!-- Logo on the left of the column -->
+                <a href="http://libertyconcepts.com" target="_blank" class="logo">
+                    <img src="/images/misc/lc.jpeg" alt="Liberty Concepts" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://libertyconcepts.com">Liberty Concepts</a> &mdash; New media strategy and technology<br />
+                    3 years, 11/2007 &mdash; 08/2010
+                </p>
+                <div class="smaller-text">
+                    <ul>
+                        <li>Led development of pixel perfect UI of more than a hundred political campaigns and non-profits.</li>
+                        <li>Extensive JavaScript programming to implement dynamic web application interfaces.</li>
+                        <li>Raised over $50 million dollars for company clients, pioneering several new online
+                            fundraising techniques.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </article>
+</div>
+
+<div class="row row-education">
+    <article>
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="column-row">
+
+            <div class="column">
+                <h3>Bachelor of science in IT</h3>
+                <a href="http://www.northeastern.edu" target="_blank" class="logo">
+                    <img src="/images/misc/nu.png" alt="Northeastern University" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://www.northeastern.edu" target="_blank">Northeastern University</a>, MA, USA<br />
+                    2009 &mdash; 2010
+                </p>
+                <div class="smaller-text">
+                    <p>
+                        Summa Cum Laude
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3>Optical Electronics</h3>
+                <a href="http://www.bsuir.by/index.jsp?&lang=en" target="_blank" class="logo" title="BSUIR">
+                    <img src="/images/misc/bsuir.jpg" alt="BSUIR" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://www.bsuir.by/index.jsp?&lang=en" target="_blank">Belarusian State University of Informatics
+                        and Radioelectronics</a>, Minsk, Belarus<br />2003 &mdash; 2006
+                </p>
+                <div class="smaller-text"></div>
+            </div>
+
+        </div>
+
+    </article>
+</div>
+
+<div class="row row-skills row-skills-1">
+    <article>
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-with-ratings">
+
+            <div class="skills-group">
+                <h3 class="description">Front-End Development</h3>
+                <div class="skill">
+                    <h4>Vanilla JavaScript</h4>
+                    <p>
+                        Expert-level proficiency in JS,latest HTML5 APIs, JS design patterns, and new updates to language
+                        standards.
+                    </p>
+                </div>
+                <div class="skill">
+                    <h4>JavaScript Frameworks</h4>
+                    <p>
+                        My usual front-end stack includes but not limited to
+                        <a href="http://backbonejs.org/" target="_blank">Backbone.js</a> with
+                        <a href="http://marionettejs.com/" target="_blank">Marionette.js</a> flavor,
+                        <a href="http://jquery.com/" target="_blank">jQuery</a>,
+                        <a href="http://underscorejs.org/" target="_blank">Underscore.js</a>.
+                        All glued with <a href="http://requirejs.org/" target="_blank">Require.js</a> with CommonJS
+                        module <a href="http://wiki.commonjs.org/wiki/Modules/1.1.1" target="_blank">format</a>.<br/>
+                        I have strong <b>negative</b> opinion about "convention over configuration" concept frameworks
+                        such as <a href="http://emberjs.com/" target="_blank">Ember.js</a>,
+                        <a href="http://knockoutjs.com/" target="_blank">Knockout.js</a> and
+                        <a href="https://angularjs.org/" target="_blank">Angular</a>.
+                    </p>
+                </div>
+                <div class="skill">
+                    <h4>Templating Engines</h4>
+                    <p>
+                        <a href="http://mustache.github.io/" target="_blank">Mustache</a> supersets:
+                        <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a> and
+                        <a href="http://twitter.github.io/hogan.js/" target="_blank">Hogan</a>, but nothing beats simplicity of
+                        <a href="http://underscorejs.org/#template" target="_blank">Underscore.js</a> templates.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-group">
+                <h3 class="description">Back-End Development</h3>
+
+                <div class="skill">
+                    <h4>Server-side scripting</h4>
+                    <p>
+                        Expert-level proficiency in Node.js using
+                        <a href="http://expressjs.com/" target="_blank">Express</a>,
+                        <a href="https://github.com/petkaantonov/bluebird" target="_blank">Bluebird</a>,
+                        <a href="https://github.com/mikeal/request" target="_blank">Request</a>,
+                        <a href="http://passportjs.org/" target="_blank" title="Passport">Passport</a>. Familiarity with
+                        Ruby on Rails, Java, PHP, and ASP backends. Groovy and C for microelectronics projects.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h4>DevOps</h4>
+                    <p>
+                        Automating builds with <a href="http://gruntjs.com/" target="_blank">Grunt</a>.
+                        Front-end unit testing with <a href="http://karma-runner.github.io" target="_blank">Karma</a>
+                        and <a href="http://jasmine.github.io/" target="_blank">Jasmine</a>.
+                        Back-end tests with <a href="https://github.com/mochajs/mocha" target="_blank">Mocha</a>.
+                        Code coverage reports with <a href="http://gotwarlost.github.io/istanbul/" target="_blank">Istanbul</a>.
+                        Acceptance tests on <a href="http://www.seleniumhq.org/" target="_blank">Selenium</a> engine.
+                        And running all above in <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> and
+                        desktop browsers. Continuous integration using <a href="http://jenkins-ci.org/" target="_blank">Jenkins</a>
+                        and automatic deployment utilizing AWS solutions: EC2, RDS, S3, etc.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h4>Data Storage</h4>
+                    <p>
+                        Integration with <a href="http://www.mongodb.org/">MongoDb</a>, MySQL clients, and Nokia's
+                        storage layers with REST interface. Experience with Redis, SQLite.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-group-other">
+                <h3 class="description">Other Relevant Skills</h3>
+                <p><a href="http://www.arduino.cc/" target="_blank">Arduino</a>, microelectronics, home automation</p>
+            </div>
+
+        </div>
+
+    </article>
+</div>
+
+<div class="row row-profile row-inversed">
+    <article>
+
+        <h2 class="section-title">Personal info</h2>
+
+        <table class="info">
+            <tr>
+                <th>Name</th>
+                <td>Andrei Zharov</td>
+            </tr>
+            <tr>
+                <th>Languages</th>
+                <td>English, Russian</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>11 Volunteer Way, <br />Lexington, Massachusetts</td>
+            </tr>
+            <tr>
+                <th>E-Mail</th>
+                <td>
+                    <script>
+                        (function(doc) {
+                            var suffix = "o2v",
+                                email = ["belmass+" + suffix, "gmail.com"].join("@");
+                            doc.write("<a href='mailto:"+ email +"'>"+ email.replace("+" + suffix, "") + "</a>");
+                        })(document);
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <th>GitHub</th>
+                <td><a href="https://github.com/natalan/" target="_blank">github.com/natalan</a></td>
+            </tr>
+            <tr>
+                <th>Blog</th>
+                <td><a href="http://uxbin.tumblr.com/" target="_blank">uxbin.tumblr.com</a></td>
+            </tr>
+        </table>
+
+        <div class="profile-pic">
+            <img src="/images/andrei.zharov.jpg" alt="Andrei Zharov" title="that's me!"/>
+        </div>
+
+    </article>
+</div>
+
+<div class="row row-icon row-inversed">
+    <article>
+
+        <ul class="icons">
+            <li>
+                <a href="https://twitter.com/zharau" target="_blank">
+                    <img src="/images/icons/social_twitter.png" alt="Twitter" />
+                    @zharau
+                </a>
+            </li>
+            <li>
+                <a href="https://www.behance.net/andrei-zharau" target="_blank">
+                    <img src="/images/icons/social_behance.png" alt="Behance" />
+                    Behance portfolio
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/zharau" target="_blank">
+                    <img src="/images/icons/social_linked_in.png" alt="Linkedin" />
+                    LinkedIn profile
+                </a>
+            </li>
+            <li>
+                <a href="http://uxbin.tumblr.com/" target="_blank">
+                    <img src="/images/icons/social_tumblr.png" alt="Tumblr" />
+                    Tumblr blog
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/natalan" target="_blank">
+                    <img src="/images/icons/social_github.png" width="40" alt="" style="padding-top: 4px" alt="GitHub" />
+                    GitHub page
+                </a>
+            </li>
+        </ul>
+
+    </article>
+</div>
+
+</div>
+
+<footer class="wrap-footer">
+    <div class="fr">&copy; Andrei Zharov, 2014.</div>
+</footer>
+
+<script>
+    var env = '{{ env }}';
+    var _appVersion = "0.0.1";
+</script>
+{{#minimize}}
+    <script src="javascripts.min.js"></script>
+{{/minimize}}
+{{^minimize}}
+    <script data-main="javascripts/init" src="javascripts/libs/requirejs/require.js"></script>
+{{/minimize}}
+</body>
+</html>
