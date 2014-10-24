@@ -1,11 +1,9 @@
 define(function(require, exports, module) {
-    var config = require('config'),
-        _ = require("underscore"),
-        $ = require("jquery");
+    var $ = require("jquery");
 
     var Webapp = function() {
         this.bindEvents = function() {
-            $(".portfolio").on("click", ".zoom-effect", function(e) {
+            $(".portfolio").on("click", ".zoom-effect", function() {
                 var link = $(this).find("a.view").attr("href");
                 window.open(link);
             });
