@@ -6,7 +6,7 @@
       "node": "0.10.x"
   },
   "scripts": {
-    "postinstall": "bash ./build/heroku-post-install.sh"
+    "postinstall": ""
   },
   "description": "Andrei Zharov :: Personal site",
   "dependencies": {
