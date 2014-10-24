@@ -324,10 +324,10 @@ module.exports = function(grunt) {
                 logConcurrentOutput: true
             },
             acceptanceJenkins: {
-                tasks: ["forever:server1:start", "mochaSelenium:phantomjs"]
+                tasks: ["forever:server1:stop", "forever:server1:start", "mochaSelenium:phantomjs"]
             },
             acceptance: {
-                tasks: ["forever:server1:start", "mochaSelenium"]
+                tasks: ["forever:server1:stop", "forever:server1:start", "mochaSelenium"]
             }
         },
 
