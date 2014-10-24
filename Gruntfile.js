@@ -126,6 +126,20 @@ module.exports = function(grunt) {
                     },
                     include: ["libs/requirejs/require.js"]
                 }
+            },
+            heroku: {
+                options: {
+                    logLevel: 1,
+                    baseUrl: "frontend/javascripts",
+                    mainConfigFile: "frontend/javascripts/init.js",
+                    out: "frontend/javascripts.min.js",
+                    name: "init",
+                    optimize: "none",
+                    done: function (done, output) {
+                        done();
+                    },
+                    include: ["libs/requirejs/require.js"]
+                }
             }
         },
 
@@ -136,7 +150,8 @@ module.exports = function(grunt) {
             },
             "prod": {
                 options: {
-                    production: true
+                    production: true,
+                    directory: "frontend/javascripts/libs"
                 }
             },
             "dev": {
@@ -161,6 +176,16 @@ module.exports = function(grunt) {
                 },
                 files: [
                     { src: TMP_FOLDER + "frontend/stylesheets/main.less", dest: TMP_FOLDER + "frontend/stylesheets.min.css"}
+                ]
+            },
+            heroku: {
+                options: {
+                    compress: true,
+                    yuicompress: true,
+                    optimization: 2
+                },
+                files: [
+                    { src: "frontend/stylesheets/main.less", dest: "frontend/stylesheets.min.css"}
                 ]
             }
         },
@@ -471,10 +496,13 @@ module.exports = function(grunt) {
      */
     grunt.registerTask("buildVersionFile", ["version"]);
     grunt.registerTask("buildFrontEnd", ["less:app", "requirejs:app"]);
+    grunt.registerTask("buildFrontEnd-heroku", ["less:heroku", "requirejs:heroku"]);
     grunt.registerTask("makeTempFolder", ["clean:temp", "clean:result", "copy:temp", "exec:installProdNPM"]);
 
     grunt.registerTask("build", ["makeTempFolder", "buildFrontEnd", "buildVersionFile", "encryptConfigs", "copy:result",
         "clean:temp","clean:result", "done"]);
+
+    grunt.registerTask("build-heroku", ["bower-install-simple:prod", "buildFrontEnd-heroku", "done"]);
 
     grunt.registerTask("testAndBuildJenkins", ["tests-jenkins", "build", "exec:rsync"]);
 

@@ -19,3 +19,5 @@ dist/
 logs/
 phantomjsdriver.log
 karma-unit.log
+javascripts.min.js
+stylesheets.min.css
