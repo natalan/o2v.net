@@ -7,7 +7,7 @@
         "minimize": true
     },
     "host": {
-        "port": 8080,
+        "port": 80,
         "url": "http://www.o2v.net"
     }
 }
