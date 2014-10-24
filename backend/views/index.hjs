@@ -227,7 +227,7 @@
         <div class="column-row">
 
             <div class="column">
-                <h3>Bachelor of science in IT</h3>
+                <h3>Bachelor of Science in IT</h3>
                 <a href="http://www.northeastern.edu" target="_blank" class="logo">
                     <img src="/images/misc/nu.png" alt="Northeastern University" />
                 </a>
@@ -405,31 +405,31 @@
 
         <ul class="icons">
             <li>
-                <a href="https://twitter.com/zharau" target="_blank">
+                <a href="https://twitter.com/zharau" target="_blank" title="Twitter">
                     <img src="/images/icons/social_twitter.png" alt="Twitter" />
                     @zharau
                 </a>
             </li>
             <li>
-                <a href="https://www.behance.net/andrei-zharau" target="_blank">
+                <a href="https://www.behance.net/andrei-zharau" target="_blank" title="Behance">
                     <img src="/images/icons/social_behance.png" alt="Behance" />
                     Behance portfolio
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/zharau" target="_blank">
+                <a href="https://www.linkedin.com/in/zharau" target="_blank" title="LinkedIn">
                     <img src="/images/icons/social_linked_in.png" alt="Linkedin" />
                     LinkedIn profile
                 </a>
             </li>
             <li>
-                <a href="http://uxbin.tumblr.com/" target="_blank">
+                <a href="http://uxbin.tumblr.com/" target="_blank" title="Tumblr">
                     <img src="/images/icons/social_tumblr.png" alt="Tumblr" />
                     Tumblr blog
                 </a>
             </li>
             <li>
-                <a href="https://github.com/natalan" target="_blank">
+                <a href="https://github.com/natalan" target="_blank" title="GitHub">
                     <img src="/images/icons/social_github.png" width="40" alt="" style="padding-top: 4px" alt="GitHub" />
                     GitHub page
                 </a>
