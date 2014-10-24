@@ -1,7 +1,7 @@
 {
     "env": "dev",
     "app": {
-        "secret": "Люби и уважай гусей на Деве"
+        "secret": "Люби и уважай гусей"
     },
     "build": {
         "minimize": true
