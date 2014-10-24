@@ -31,8 +31,8 @@ var getRoot = function(req, res) {
  */
 var getVersion = function(req, res) {
     var dynamicData = {
-        "Instance Run env": config.get("env"),
-        "Instance uptime": prettyMs(process.uptime())
+        "instance run env": config.get("env"),
+        "instance uptime": prettyMs(process.uptime())
     };
 
     /* istanbul ignore next */
