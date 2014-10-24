@@ -2,6 +2,9 @@
   "name": "personal-site-o2v.net",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+      "node": "0.10.x"
+  },
   "scripts": {
     "postinstall": "./node_modules/grunt-cli/bin/grunt bower-install-simple:localhost"
   },
