@@ -6,7 +6,7 @@
       "node": "0.10.x"
   },
   "scripts": {
-    "postinstall": "./node_modules/grunt-cli/bin/grunt bower-install-simple:localhost"
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "description": "Andrei Zharov :: Personal site",
   "dependencies": {
