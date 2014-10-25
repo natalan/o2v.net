@@ -43,6 +43,8 @@ var config = convict({
         }
     },
 
+    newrelic: "f5c538c92762a8e0828441130cf09dff40fa0b48",
+
     build: {
         minimize: {
             doc: "Serve minimized js/css to the client",
