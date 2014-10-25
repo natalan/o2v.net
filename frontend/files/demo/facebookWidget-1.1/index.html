@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Custom Facebook Widget</title>
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script> <!--Will use jQuery library to speedup the development process -->
+        <script src="jquery.facebookWidget.js" type="text/javascript"></script>
+        <script>
+            jQuery(function(){
+                jQuery("#facebook-widget div.widget-inner").facebookWidget({fans: 9, showTotalNumber: true, objectID: '289128600757', likeLink:'a.facebookPlus'})
+            });
+        </script>
+        <style type="text/css">
+            #facebook-widget {background:#f1f1f1; text-align: center; margin:10px; width:212px}
+            #facebook-widget .widget-inner {padding:0 24px}
+            #facebook-widget h2 {padding:0 0 10px; color:#003E84; font-weight:bold; font-size:12px }
+            #facebook-widget .facebookPlus {padding:0 0 0px; display: block}
+            #facebook-widget .number-friends {color:#7F8184; font:normal 11px Arial; text-align: center; padding:5px 0}
+            #facebook-widget ul#fans {padding:0 0 5px; margin:0; overflow: hidden; height: 100%}
+            #facebook-widget ul#fans li {width:52px; height:52px; float:left; margin:0 7px 6px 0; background:#fff; display:block }
+            #facebook-widget img {border:0}
+            #facebook-widget ul#fans li:nth-child(3n) {margin:0 0px 6px 0}
+            .facebookPlus {position:relative}
+        </style>
+    </head>
+    <body>
+        <div style="float:left; margin-right: 100px">
+        <h2>Custom widget:</h2>
+        <div id="facebook-widget">
+            <a href="http://www.facebook.com/pages/Andrew-Cuomo/38453090414" target="_blank" class="facebookPlus"><img src="fwidget-top.png"/></a>
+            <div class="widget-inner"></div>
+            <a href="http://www.facebook.com/pages/Andrew-Cuomo/38453090414" target="_blank" class="facebookPlus"><img src="fwidget-bottom.png"/></a>
+        </div>
+        </div>
+        <div style="float:left; width:212px">
+            <h2>Default widget:</h2>
+            <script type="text/javascript" src="http://static.ak.connect.facebook.com/connect.php/en_US"></script>
+            <script type="text/javascript">FB.init("2773e287926ce82122dd5580dfa8c064");</script>
+            <div><fb:fan profile_id="38453090414" stream="0" connections="6" logobar="1" width="212" height="300"></fb:fan></div>
+        </div>
+    </body>
+</html>

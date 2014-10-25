@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>jQuery FormLabels Plugin</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+    <script src="jquery.formLabels.js"></script>
+
+    <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/ui-darkness/jquery-ui.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="plugins/styles/shCore.css" />
+    <link type="text/css" rel="stylesheet" href="plugins/styles/shThemeDefault.css" />
+
+    <script type="text/javascript" src="plugins/scripts/shCore.js"></script>
+    <script type="text/javascript" src="plugins/scripts/shBrushCss.js"></script>
+    <script type="text/javascript" src="plugins/scripts/shBrushJScript.js"></script>
+    <script src="init.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="tabs">
+        <ul>
+            <li><a href="#default">Default functionality</a></li>
+            <li><a href="#excludeElts">Option: 'excludeElts'</a></li>
+            <li><a href="#refreshOnResize">Option: 'refreshOnResize'</a></li>
+            <li><a href="#safemode">Option: 'safemode'</a></li>
+            <li><a href="#labelParent">Option: 'labelParent'</a></li>
+            <li><a href="#semantic">Option: 'semantic'</a></li>
+            <li><a href="#refreshMethod">Method: 'refreshLabels()'</a></li>
+        </ul>
+        <div id="default" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="" id="form1">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" title="Password" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Default Functionality</h3>
+                <div class="info">Run the plugin with default configuration options</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            $("#form1").formLabels();
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+        <div id="excludeElts" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="post" id="form2">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" title="Password" /></div>
+                        <div class="field"><label style="font:bold 11px Arial">Secret word:</label><input type="password" name="secretWord" title="Secret Word" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Option: 'excludeElts'</h3>
+                <div class="info">Excludes certain elements from being 'labelized'</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            $("#form2").formLabels({
+                                excludeElts: 'input[name=secretWord]'
+                            });
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+        <div id="refreshOnResize" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="" id="form3">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" id="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" id="password" title="Password" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Option: 'refreshOnResize'</h3>
+                <div class="info">Whether or not refresh labels on window resize event. <br/>Resize browser window horizontally to see that labels are changing their position</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            $("#form3").formLabels({
+                                labelParent : 'body',
+                                refreshOnResize : true
+                            });
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+        <div id="safemode" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="post" id="form4">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" title="Password" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Option: 'safemode'</h3>
+                <div class="info">if enabled the plugin runs in safe mode without animation and other special features. Useful when dealing with unusual situations. Default: false</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            $("#form4").formLabels({
+                                safemode : true
+                            });
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+        <div id="labelParent" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="post" id="form5">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" title="Password" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                    <div id="labels"></div>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Option: 'labelParent'</h3>
+                <div class="info">Parent container for your 'labels'. Default: 'form' - labels will be inserted in closest form. Inspect source to find that labels was placed outside the form in the #labels div</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            $("#form5").formLabels({
+                                labelParent: '#labels'
+                            });
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+        <div id="semantic" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="post" id="form6">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" title="Password" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Option: 'semantic'</h3>
+                <div class="info">Although it's not recommended to turn off this function, in some cases it can be necessary. Setting it to <em>false</em> prevents inserting &lt;label/&gt; before input element and appends it at the end of a form</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            $("#form6").formLabels({
+                                semantic : false
+                            });
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+        <div id="refreshMethod" class="group">
+            <div class="example">
+                <div class="form-container">
+                    <form method="post" action="post" id="form7">
+                        <h3>Login</h3>
+                        <div class="field"><input type="email" name="email" title="Email Address" /></div>
+                        <div class="field"><input type="password" name="password" title="Password" /></div>
+                        <div class="submit"><button type="submit">Login</button></div>
+                    </form>
+                    <div class="group" id="resize-buttons">
+                        <button id="refreshB">refresh</button>
+                        <div style="font-size: 11px" class="position-info" id="status-message"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-info">
+                <h3>Option: 'semantic'</h3>
+                <div class="info">Refresh labels' position. Useful when input position has been changed due to DOM manipulations, elements resizing, etc.<br/> Resize browser window horizontally, and then hit "refresh" to recalculate positions</div>
+                <h3>Code</h3>
+                        <pre class="brush:javascript">
+                            var formLabels = $("#form7").formLabels({
+                                labelParent : 'body'
+                            });
+
+                            $("#refreshB").on("click", function () {
+                                formLabels.refreshLabels();
+                            });
+                        </pre>
+                <div class="results">Submit the form to see returned values</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2013 Andrei Zharau. All rights reserved.<br/>Boston, Massachusetts. Email: belmass[at]gmail.com</p>
+    </div>
+</div>
+</body>
+</html>

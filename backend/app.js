@@ -69,6 +69,14 @@ app.get("/", apiIndex.getRoot);
 app.get("/version", apiIndex.getVersion);
 app.get("/health", apiIndex.getHealth);
 
+// obsolete redirects
+app.get("/blog/jquery-formlabels-plugin", function(req, res) {
+    res.redirect(301, "https://github.com/natalan/jquery.formLabels");
+});
+app.get("/demo/:id", function(req, res) {
+    res.redirect(301, "/files/demo/" + req.params.id);
+});
+
 // if not picked any route then show homepage and forward to error handler
 /* istanbul ignore next */
 app.use(function(req, res, next) {
