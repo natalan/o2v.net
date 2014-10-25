@@ -1,5 +1,4 @@
 // TODO: remove istanbul ignores
-require('newrelic');
 var express = require("express"),
     path = require("path"),
     bodyParser = require("body-parser"),
