@@ -84,6 +84,7 @@ app.get("/demo/:id", function(req, res) {
 /* istanbul ignore next */
 app.use(function(req, res, next) {
     if (["wp-login.php", "wp-admin.php"].indexOf(req.url.replace("/", "")) > -1) {
+        console.error("hack attempt :: " + req.protocol + '://' + req.headers.host + req.url);
         var err = new Error("Eat shit, stupid hacker");
         err.status = 404;
         next(err);
