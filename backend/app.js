@@ -83,13 +83,14 @@ app.get("/demo/:id", function(req, res) {
 // if not picked any route then show homepage and forward to error handler
 /* istanbul ignore next */
 app.use(function(req, res, next) {
+    var url = req.protocol + '://' + req.headers.host + req.url;
     if (["wp-login.php", "wp-admin.php"].indexOf(req.url.replace("/", "")) > -1) {
-        console.error("hack attempt :: " + req.protocol + '://' + req.headers.host + req.url);
+        console.error("hack attempt :: " + url);
         var err = new Error("Eat shit, stupid hacker");
         err.status = 404;
         next(err);
     } else {
-        console.error("redirect :: not found - attempting to access " + req.headers.host);
+        console.error("redirect :: not found - attempting to access " + url);
         res.redirect(301, "/");
     }
 });
