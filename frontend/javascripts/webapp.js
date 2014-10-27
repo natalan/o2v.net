@@ -10,7 +10,23 @@ define(function(require, exports, module) {
         };
 
         this.start = function() {
+            this.checkCVButton();
             this.bindEvents();
+        };
+
+        this.checkCVButton = function() {
+            if ("print" in window) {
+                var $resumeButton = $("#printResume");
+                $resumeButton.on("click", function(e) {
+                    window.print();
+                    e.preventDefault();
+                });
+            } else {
+                return;
+            }
+
+
+
         };
     };
 

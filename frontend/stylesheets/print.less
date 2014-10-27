@@ -1,5 +1,4 @@
 @media print {
-
     * {
         box-shadow: none !important;
         background: transparent !important;
@@ -8,8 +7,9 @@
         filter:none !important;
         -ms-filter: none !important;
     }
+
     a, a:visited { text-decoration: none; }
-    a[href]:after { content: " (" attr(href) ")"; text-decoration: none; color: #999; }
+    //a[href]:after { content: " (" attr(href) ")"; text-decoration: none; color: #999; }
     abbr[title]:after { content: " (" attr(title) ")"; }
     .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
     pre, blockquote { border: 0 none !important; page-break-inside: avoid; margin: 5px 0 !important; }
@@ -122,6 +122,22 @@
         color: #999 !important;
     }
 
+    .skills-with-ratings {
+        .skills-group {
+            .skill p {
+                font-size: 0.875em;
+                line-height: 1.642857143em;
+            }
+            margin-right: 3%;
+        }
+    }
+
+    .column, .full-column {
+        .subtitle {
+            font-size: 12px;
+        }
+    }
+
     .skills {
         padding: 10px 0 0 0;
         text-align: left;
@@ -141,6 +157,18 @@
         }
     }
 
+    .personal-info {
+        display: block;
+    }
+    .honor-print {
+        display: inline;
+    }
+
+    .row-skills {
+        article {
+            padding-bottom: 0;
+        }
+    }
     /*hide unrelevant elements*/
 
     .logo,
@@ -152,8 +180,20 @@
     .wrap-links,
     .wrap-ribbons,
     .social-services,
+    #personal,
+    .skills-group-other,
+    .wrap-footer,
     #container:before,
-    #container:after {
+    #container:after,
+    div.honor {
         display: none !important;
+    }
+
+    .smaller-text ul {
+        padding-left: 0;
+        li {
+            padding-bottom: 5px;
+            list-style: none;
+        }
     }
 }

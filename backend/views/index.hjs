@@ -29,9 +29,10 @@
             <p>dexterous ui engineer</p>
         </div>
         <div class="wrap-ribbons">
-            <a class="ribbon ribbon" href="http://resume.linkedinlabs.com/o5ayu163w" title="Download resume" target="_blank">Download <em>CV</em></a>
+            <a class="ribbon ribbon" href="http://resume.linkedinlabs.com/o5ayu163w" title="Download resume" target="_blank" id="printResume">Download <em>CV</em></a>
         </div>
         <div class="social-services"></div>
+        <div class="personal-info">617-834-7472 | belmass@gmail.com | www.o2v.net</div>
     </article>
 </header>
 
@@ -236,9 +237,9 @@
                 </a>
                 <p class="subtitle">
                     <a href="http://www.northeastern.edu" target="_blank">Northeastern University</a>, MA, USA<br />
-                    2009 &mdash; 2010
+                    2009 &mdash; 2010 <span class="honor-print">(Summa Cum Laude)</span>
                 </p>
-                <div class="smaller-text">
+                <div class="smaller-text honor">
                     <p>
                         Summa Cum Laude
                     </p>
@@ -356,7 +357,7 @@
     </article>
 </div>
 
-<div class="row row-profile row-inversed">
+<div class="row row-profile row-inversed" id="personal">
     <article>
 
         <h2 class="section-title">Personal info</h2>
