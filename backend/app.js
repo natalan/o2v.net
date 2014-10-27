@@ -19,6 +19,7 @@ app.set("view engine", "hjs");
 // TODO: add CSRF from https://github.com/expressjs/csurf
 app.get('/*', function(req, res, next) {
     if (req.headers.host.indexOf("o2v-net.herokuapp.com") !== -1 ) {
+        console.log("redirect :: attempting to access " + req.headers.host);
         res.redirect(301, "http://" + req.headers.host.replace("o2v-net.herokuapp.com", "www.o2v.net") + req.url);
     } else {
         next();
@@ -71,15 +72,18 @@ app.get("/health", apiIndex.getHealth);
 
 // obsolete redirects
 app.get("/blog/jquery-formlabels-plugin", function(req, res) {
+    console.log("redirect :: attempting to access /blog/jquery-formlabels-plugin");
     res.redirect(301, "https://github.com/natalan/jquery.formLabels");
 });
 app.get("/demo/:id", function(req, res) {
+    console.log("redirect :: attempting to access /demo/" + req.params.id);
     res.redirect(301, "/files/demo/" + req.params.id);
 });
 
 // if not picked any route then show homepage and forward to error handler
 /* istanbul ignore next */
 app.use(function(req, res, next) {
+    console.log("redirect :: attempting to access " + req.headers.host);
     res.redirect(301, "/");
 });
 
