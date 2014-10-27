@@ -83,7 +83,7 @@ app.get("/demo/:id", function(req, res) {
 // if not picked any route then show homepage and forward to error handler
 /* istanbul ignore next */
 app.use(function(req, res, next) {
-    console.log("redirect :: attempting to access " + req.headers.host);
+    console.error("redirect :: not found - attempting to access " + req.headers.host);
     res.redirect(301, "/");
 });
 
