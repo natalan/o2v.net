@@ -7,7 +7,7 @@
   },
   "scripts": {
     "postinstall": "",
-    "start": "node bin/www"
+    "start": "node app/bin/www"
   },
   "description": "Andrei Zharov :: Personal site",
   "dependencies": {
