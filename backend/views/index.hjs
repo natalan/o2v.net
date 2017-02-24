@@ -40,8 +40,8 @@
     <article class="markup">
         <h2 class="section-title">About Me</h2>
         <p>
-            Usability engineer and passionate front-end JavaScript developer with more than 8 years of work experience
-            including mobile/desktop applications development at <a href="http://www.nokia.com" target="_blank">Nokia</a>,
+            Usability engineer and passionate front-end JavaScript developer with more than 14 years of work experience
+            including best on the market payments analytics platform at <a href="http://www.pazien.com" target="_blank">Pazien</a>, mobile/desktop applications development at <a href="http://www.nokia.com" target="_blank">Nokia</a>,
             web-based HR tools for nearly 80 percent of the Fortune 100 companies at
             <a href="http://www.peoplefluent.com" target="_blank">PeopleFluent</a>,
             and web campaigns for more than 50 percent of all federal elections
@@ -116,12 +116,11 @@
 
             <li class="zoom-effect">
                 <div class="border">
-                    <div class="project-screen" style="background-image: url('/images/projects/asp.png')"></div>
+                    <div class="project-screen" style="background-image: url('/images/projects/pazien.png')"></div>
                     <div class="mask">
-                        <h2>Appalachia Service Project</h2>
-                        <p>Volunteer organization concerned with home repair for
-                            low-income families and free home construction.</p>
-                        <a href="https://www.behance.net/gallery/11815045/ASP" class="view">Open in Behance</a>
+                        <h2>Pazien app</h2>
+                        <p>Consolidating data from multiple payment providers</p>
+                        <a href="https://www.behance.net/gallery/49310541/Pazien-app" class="view" target="_blank">Open in Behance</a>
                     </div>
                 </div>
             </li>
@@ -136,17 +135,34 @@
         <h2 class="section-title">Experience</h2>
 
         <div class="column-row">
+            <div class="column">
+                <h3>Principal Software Engineer</h3>
 
-            <div class="full-column">
+                <a href="http://pazien.com" target="_blank" class="logo">
+                    <img style="padding-top: 15px" src="/images/misc/pazien.png" alt="Pazien" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://pazien.com" target="_blank">Pazien</a> &mdash; Financial services<br />
+                    2 years, 12/2014 &mdash; present
+                </p>
+                <div class="smaller-text">
+                    <ul>
+                        <li>Leading UI development effort in the organization</li>
+                        <li>Developing best in class tool with all payment provider data, integrated in one place</li>
+                        <li>Pioneered advanced regression testing technologies based on comparing different release environments</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
                 <h3>Senior Software UI Engineer</h3>
 
-                <!-- Logo on the left of the column -->
                 <a href="http://nokia.com" target="_blank" class="logo">
                     <img src="/images/misc/nokia.png" alt="Nokia" />
                 </a>
                 <p class="subtitle">
                     <a href="http://nokia.com" target="_blank">Nokia</a> &mdash; Telecommunication<br />
-                    3 years, 11/2011 &mdash; present
+                    3 years, 11/2011 &mdash; 12/2014
                 </p>
                 <div class="smaller-text">
                     <ul>
@@ -165,13 +181,10 @@
                             <a href="https://github.com/nodejitsu/forever" target="_blank">Forever</a>.
                             <a href="https://www.npmjs.org/~andrei.zharau" target="_blank">Published</a> several NPM
                             components.</li>
-                        <li>Developed Nokia Profiles - mobile/desktop user identity service for Nokia social platform
-                            using <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a> and <a href="http://backbonejs.org/" target="_blank">Backbone.js</a>.</li>
-                        <li>Implemented integrations with Nokia Maps, Nokia Places API, and Nokia's backend
-                            platforms.</li>
                     </ul>
                 </div>
             </div>
+
         </div>
 
         <div class="column-row">
@@ -275,8 +288,8 @@
                 <div class="skill">
                     <h4>Core strengths</h4>
                     <p>
-                        Expert-level proficiency in JavaScript, latest HTML5 APIs, JS design patterns, and new updates to
-                        language standards. Award-winning HTML/CSS3 websites, platforms, and apps.
+                        Expert-level proficiency in JavaScript (including ES2015), latest HTML5 APIs, and JS design patterns.
+                        Creating award-winning websites, platforms, and apps.
                     </p>
                 </div>
                 <div class="skill">
@@ -284,15 +297,13 @@
                     <p>
                         My usual front-end stack includes but not limited to
                         <a href="http://backbonejs.org/" target="_blank">Backbone.js</a> with
-                        <a href="http://marionettejs.com/" target="_blank">Marionette.js</a> flavor,
-                        <a href="http://jquery.com/" target="_blank">jQuery</a>,
+                        <a href="http://marionettejs.com/" target="_blank">Marionette.js</a> flavor and
                         <a href="http://underscorejs.org/" target="_blank">Underscore.js</a>.
-                        All glued with <a href="http://requirejs.org/" target="_blank">Require.js</a> with CommonJS
+                        All glued with <a href="https://webpack.js.org/">Webpack 2</a> or <a href="http://requirejs.org/" target="_blank">Require.js</a> with CommonJS
                         module <a href="http://wiki.commonjs.org/wiki/Modules/1.1.1" target="_blank">format</a>.<br/>
-                        I also have experience using "convention over configuration" concept frameworks
-                        such as <a href="http://emberjs.com/" target="_blank">Ember.js</a>,
-                        <a href="http://knockoutjs.com/" target="_blank">Knockout.js</a> and
-                        <a href="https://angularjs.org/" target="_blank">Angular.js</a>.
+                        <br/>
+                        I also have experience with <a href="http://emberjs.com/" target="_blank">Ember.js</a>,
+                        <a href="https://angularjs.org/" target="_blank">Angular.js</a>, and exposure to <a href="https://facebook.github.io/react/" target="_blank">React</a>.
                     </p>
                 </div>
                 <div class="skill">
@@ -331,7 +342,8 @@
                         and <a href="http://jasmine.github.io/" target="_blank">Jasmine</a>.
                         Back-end tests with <a href="https://github.com/mochajs/mocha" target="_blank">Mocha</a>.
                         Code coverage reports with <a href="http://gotwarlost.github.io/istanbul/" target="_blank">Istanbul</a>.
-                        Acceptance tests on <a href="http://www.seleniumhq.org/" target="_blank">Selenium</a> engine.
+                        E2E tests on <a href="http://www.seleniumhq.org/" target="_blank">Selenium</a> engine
+                        and <a href="http://casperjs.org/" target="_blank">CasperJS</a>.
                         And running all above in <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> and
                         desktop browsers. Continuous integration using <a href="http://jenkins-ci.org/" target="_blank">Jenkins</a>
                         and automatic deployment utilizing <a href="http://heroku.com">Heroku</a> and AWS solutions: EC2, RDS, S3, etc.
