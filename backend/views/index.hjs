@@ -224,9 +224,22 @@
                 <div class="smaller-text">
                     <ul>
                         <li>Led development of pixel perfect UI of more than a hundred political campaigns and non-profits.</li>
-                        <li>Extensive JavaScript programming to implement dynamic web application interfaces.</li>
-                        <li>Raised over $50 million dollars for company clients, pioneering several new online
-                            fundraising techniques.</li>
+                    </ul>
+                </div>
+
+                <h3>Web Developer</h3>
+
+                <!-- Logo on the left of the column -->
+                <a href="http://globalmedia.by" style="top: 150px;" target="_blank" class="logo">
+                    <img src="/images/misc/global.jpg" alt="GlobalMedia" />
+                </a>
+                <p class="subtitle">
+                    <a href="http://globalmedia.by">GlobalMedia</a> &mdash; Advertisement<br />
+                    3 years, 09/2003 &mdash; 04/2006
+                </p>
+                <div class="smaller-text">
+                    <ul>
+                        <li>Created websites for commercial and government projects</li>
                     </ul>
                 </div>
             </div>
