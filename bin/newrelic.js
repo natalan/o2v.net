@@ -1,5 +1,3 @@
-'use strict'
-
 const config = require("../backend/config");
 /**
  * This file includes all of the configuration variables used by the Node.js
