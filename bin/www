@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-require('newrelic');
 var debug = require('debug')('composer');
 var app = require('../backend/app');
 
