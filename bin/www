@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('newrelic');
 var debug = require('debug')('composer');
-var app = require('../../backend/app');
+var app = require('../backend/app');
 
 app.set('port', process.env.PORT || 3000);
 
