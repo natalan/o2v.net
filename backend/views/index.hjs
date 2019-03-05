@@ -10,7 +10,7 @@
     <meta name="description" content="Personal page-resume of Andrei Zharov. JavaScript engineer in Boston.">
     <meta name="keywords" content="JavaScript, engineer, consulting, backbone.js, node.js">
     <meta name="author" content="Andrei Zharov">
-    <meta property="og:image" content="http://www.o2v.net/images/andrei.zharov.jpg">
+    <meta property="og:image" content="https://www.o2v.net/images/andrei.zharov.jpg">
     <title>{{ title }}</title>
     {{#minimize}}
         <link rel="stylesheet" href="stylesheets.min.css" />
@@ -29,7 +29,7 @@
             <p>dexterous ui engineer</p>
         </div>
         <div class="wrap-ribbons">
-            <a class="ribbon ribbon" href="http://resume.linkedinlabs.com/o5ayu163w" title="Download resume" target="_blank" id="printResume">Download <em>CV</em></a>
+            <a class="ribbon ribbon" href="https://resume.linkedinlabs.com/o5ayu163w" title="Download resume" target="_blank" id="printResume">Download <em>CV</em></a>
         </div>
         <div class="social-services"></div>
         <div class="personal-info">617-834-7472 | belmass@gmail.com | www.o2v.net</div>
@@ -41,11 +41,11 @@
         <h2 class="section-title">About Me</h2>
         <p>
             Usability engineer and passionate front-end JavaScript developer with more than 14 years of work experience
-            including best on the market payments analytics platform at <a href="http://www.pazien.com" target="_blank">Pazien</a>, mobile/desktop applications development at <a href="http://www.nokia.com" target="_blank">Nokia</a>,
+            including best on the market payments analytics platform at <a href="https://www.pazien.com" target="_blank">Pazien</a>, mobile/desktop applications development at <a href="https://www.nokia.com" target="_blank">Nokia</a>,
             web-based HR tools for nearly 80 percent of the Fortune 100 companies at
-            <a href="http://www.peoplefluent.com" target="_blank">PeopleFluent</a>,
+            <a href="https://www.peoplefluent.com" target="_blank">PeopleFluent</a>,
             and web campaigns for more than 50 percent of all federal elections
-            in the US at <a href="http://www.libertyconcepts.com" target="_blank">Liberty&nbsp;Concepts</a>.
+            in the US at <a href="https://www.libertyconcepts.com" target="_blank">Liberty&nbsp;Concepts</a>.
         </p>
     </article>
 </div>
@@ -54,13 +54,22 @@
     <article>
         <h2 class="section-title">Projects</h2>
         <ul class="portfolio">
-
+            <li class="zoom-effect">
+                <div class="border">
+                    <div class="project-screen" style="background-image: url('/images/projects/pazien.png')"></div>
+                    <div class="mask">
+                        <h2>Pazien app</h2>
+                        <p>Consolidating data from multiple payment providers</p>
+                        <a href="https://www.behance.net/gallery/49310541/Pazien-app" class="view" target="_blank">Open in Behance</a>
+                    </div>
+                </div>
+            </li>
             <li class="zoom-effect">
                 <div class="border">
                     <div class="project-screen" style="background-image: url('/images/projects/cuomo.png')"></div>
                     <div class="mask">
-                        <h2>Andrew Cuomo for Governor</h2>
-                        <p>2010 Democratic candidate web campaign for the governor of New York.</p>
+                        <h2>Andrew Cuomo for governor</h2>
+                        <p>2010 democratic candidate web campaign for the governor of New York.</p>
                         <a href="https://www.behance.net/gallery/1778742/Andrew-Cuomo-for-Governor" target="_blank" class="view">Open in Behance</a>
                     </div>
                 </div>
@@ -70,7 +79,7 @@
                 <div class="border">
                     <div class="project-screen" style="background-image: url('/images/projects/ipadapps.png')"></div>
                     <div class="mask">
-                        <h2>Mobile Talent Management suite</h2>
+                        <h2>Mobile talent management suite</h2>
                         <p>Suite of iPad apps for HR: recruiting, performance, compensation, communication</p>
                         <a href="https://www.behance.net/gallery/11815281/Mobile-Talent-Management-app" target="_blank" class="view">Open in Behance</a>
                     </div>
@@ -113,18 +122,6 @@
                     </div>
                 </div>
             </li>
-
-            <li class="zoom-effect">
-                <div class="border">
-                    <div class="project-screen" style="background-image: url('/images/projects/pazien.png')"></div>
-                    <div class="mask">
-                        <h2>Pazien app</h2>
-                        <p>Consolidating data from multiple payment providers</p>
-                        <a href="https://www.behance.net/gallery/49310541/Pazien-app" class="view" target="_blank">Open in Behance</a>
-                    </div>
-                </div>
-            </li>
-
         </ul>
 
     </article>
@@ -136,14 +133,14 @@
 
         <div class="column-row">
             <div class="column">
-                <h3>Principal Software Engineer</h3>
+                <h3>Principal software engineer</h3>
 
-                <a href="http://pazien.com" target="_blank" class="logo">
+                <a href="https://pazien.com" target="_blank" class="logo">
                     <img style="padding-top: 15px" src="/images/misc/pazien.png" alt="Pazien" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://pazien.com" target="_blank">Pazien</a> &mdash; Financial services<br />
-                    2 years, 12/2014 &mdash; present
+                    <a href="https://pazien.com" target="_blank">Pazien</a> &mdash; Financial services<br />
+                    4 years, 12/2014 &mdash; present
                 </p>
                 <div class="smaller-text">
                     <ul>
@@ -155,29 +152,29 @@
             </div>
 
             <div class="column">
-                <h3>Senior Software UI Engineer</h3>
+                <h3>Senior software UI engineer</h3>
 
-                <a href="http://nokia.com" target="_blank" class="logo">
+                <a href="https://nokia.com" target="_blank" class="logo">
                     <img src="/images/misc/nokia.png" alt="Nokia" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://nokia.com" target="_blank">Nokia</a> &mdash; Telecommunication<br />
+                    <a href="https://nokia.com" target="_blank">Nokia</a> &mdash; Telecommunication<br />
                     3 years, 11/2011 &mdash; 12/2014
                 </p>
                 <div class="smaller-text">
                     <ul>
                         <li>Developed highly scalable mobile/desktop JavaScript applications and prototypes using
-                            <a href="http://backbonejs.org/" target="_blank">Backbone.js</a>,
-                            <a href="http://marionettejs.com/" target="_blank">Marionette.js</a>,
+                            <a href="https://backbonejs.org/" target="_blank">Backbone.js</a>,
+                            <a href="https://marionettejs.com/" target="_blank">Marionette.js</a>,
                             <a href="https://angularjs.org/" target="_blank">Angular.js</a>, and other latest JS
                             technologies and frameworks.</li>
-                        <li>Architected and implemented multiple <a href="http://nodejs.org/" target="_blank">Node.js</a>
-                            projects. Tested with <a href="http://karma-runner.github.io" target="_blank">Karma</a>,
+                        <li>Architected and implemented multiple <a href="https://nodejs.org/" target="_blank">Node.js</a>
+                            projects. Tested with <a href="https://karma-runner.github.io" target="_blank">Karma</a>,
                             <a href="https://github.com/mochajs/mocha" target="_blank">Mocha</a>,
-                            <a href="http://jasmine.github.io/" target="_blank">Jasmine</a>,
+                            <a href="https://jasmine.github.io/" target="_blank">Jasmine</a>,
                             and ran the infrastructure in AWS utilizing
-                            <a href="http://jenkins-ci.org/" target="_blank">Jenkins</a>,
-                            <a href="http://gruntjs.com/" target="_blank">Grunt</a>, and
+                            <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a>,
+                            <a href="https://gruntjs.com/" target="_blank">Grunt</a>, and
                             <a href="https://github.com/nodejitsu/forever" target="_blank">Forever</a>.
                             <a href="https://www.npmjs.org/~andrei.zharau" target="_blank">Published</a> several NPM
                             components.</li>
@@ -189,20 +186,20 @@
 
         <div class="column-row">
             <div class="column">
-                <h3>Software UX Engineer</h3>
+                <h3>Software UX engineer</h3>
 
-                <a href="http://peoplefluent.com" target="_blank" class="logo" title="Peoplefluent">
+                <a href="https://peoplefluent.com" target="_blank" class="logo" title="Peoplefluent">
                     <img src="/images/misc/pf.png" alt="Peoplefluent" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://peoplefluent.com" target="_blank">Peoplefluent</a> &mdash; Human capital management software<br />
+                    <a href="https://peoplefluent.com" target="_blank">Peoplefluent</a> &mdash; Human capital management software<br />
                     1.5 years, 08/2010 &mdash; 11/2011
                 </p>
                 <div class="smaller-text">
                     <ul>
                         <li>Led UI development of cutting edge award-winning HTML5/CSS3 mobile and desktop
                             applications.
-                            <a href="http://www.google.com/patents/US20130159203" target="_blank">Patent</a> holder.</li>
+                            <a href="https://www.google.com/patents/US20130159203" target="_blank">Patent</a> holder.</li>
                         <li>Created, enhanced, maintained, and tested software UI framework components.</li>
                         <li>Mentored other developers, and coordinating activities with the development
                             team across the globe.</li>
@@ -214,11 +211,11 @@
                 <h3>Lead Web Developer</h3>
 
                 <!-- Logo on the left of the column -->
-                <a href="http://libertyconcepts.com" target="_blank" class="logo">
+                <a href="https://libertyconcepts.com" target="_blank" class="logo">
                     <img src="/images/misc/lc.jpeg" alt="Liberty Concepts" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://libertyconcepts.com">Liberty Concepts</a> &mdash; New media strategy and technology<br />
+                    <a href="https://libertyconcepts.com" target="_blank">Liberty Concepts</a> &mdash; New media strategy and technology<br />
                     3 years, 11/2007 &mdash; 08/2010
                 </p>
                 <div class="smaller-text">
@@ -230,11 +227,11 @@
                 <h3>Web Developer</h3>
 
                 <!-- Logo on the left of the column -->
-                <a href="http://globalmedia.by" style="top: 150px;" target="_blank" class="logo">
+                <a href="https://globalmedia.by" style="top: 150px;" target="_blank" class="logo">
                     <img src="/images/misc/global.jpg" alt="GlobalMedia" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://globalmedia.by">GlobalMedia</a> &mdash; Advertisement<br />
+                    <a href="https://globalmedia.by" target="_blank">GlobalMedia</a> &mdash; Advertisement<br />
                     3 years, 09/2003 &mdash; 04/2006
                 </p>
                 <div class="smaller-text">
@@ -258,11 +255,11 @@
 
             <div class="column">
                 <h3>Bachelor of Science in IT</h3>
-                <a href="http://www.northeastern.edu" target="_blank" class="logo">
+                <a href="https://www.northeastern.edu" target="_blank" class="logo">
                     <img src="/images/misc/nu.png" alt="Northeastern University" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://www.northeastern.edu" target="_blank">Northeastern University</a>, MA, USA<br />
+                    <a href="https://www.northeastern.edu" target="_blank">Northeastern University</a>, MA, USA<br />
                     2009 &mdash; 2010 <span class="honor-print">(Summa Cum Laude)</span>
                 </p>
                 <div class="smaller-text honor">
@@ -274,18 +271,16 @@
 
             <div class="column">
                 <h3>Optical Electronics</h3>
-                <a href="http://www.bsuir.by/index.jsp?&lang=en" target="_blank" class="logo" title="BSUIR">
+                <a href="https://www.bsuir.by/index.jsp?&lang=en" target="_blank" class="logo" title="BSUIR">
                     <img src="/images/misc/bsuir.jpg" alt="BSUIR" />
                 </a>
                 <p class="subtitle">
-                    <a href="http://www.bsuir.by/index.jsp?&lang=en" target="_blank">Belarusian State University of Informatics
+                    <a href="https://www.bsuir.by/index.jsp?&lang=en" target="_blank">Belarusian State University of Informatics
                         and Radioelectronics</a>, Minsk, Belarus<br />2003 &mdash; 2006
                 </p>
                 <div class="smaller-text"></div>
             </div>
-
         </div>
-
     </article>
 </div>
 
@@ -297,35 +292,34 @@
         <div class="skills-with-ratings">
 
             <div class="skills-group">
-                <h3 class="description">Front-End Development</h3>
+                <h3 class="description">Front-End development</h3>
                 <div class="skill">
                     <h4>Core strengths</h4>
                     <p>
-                        Expert-level proficiency in JavaScript (including ES2015), latest HTML5 APIs, and JS design patterns.
+                        Expert-level proficiency in JavaScript, latest HTML5 APIs, and JS design patterns.
                         Creating award-winning websites, platforms, and apps.
                     </p>
                 </div>
                 <div class="skill">
-                    <h4>JavaScript Frameworks</h4>
+                    <h4>JavaScript frameworks</h4>
                     <p>
                         My usual front-end stack includes but not limited to
-                        <a href="http://backbonejs.org/" target="_blank">Backbone.js</a> with
-                        <a href="http://marionettejs.com/" target="_blank">Marionette.js</a> flavor and
-                        <a href="http://underscorejs.org/" target="_blank">Underscore.js</a>.
-                        All glued with <a href="https://webpack.js.org/">Webpack 2</a> or <a href="http://requirejs.org/" target="_blank">Require.js</a> with CommonJS
-                        module <a href="http://wiki.commonjs.org/wiki/Modules/1.1.1" target="_blank">format</a>.<br/>
+                        <a href="https://reactjs.org/" target="_blank">React</a>,
+                        <a href="https://marionettejs.com/" target="_blank">Marionette.js</a>
                         <br/>
-                        I also have experience with <a href="http://emberjs.com/" target="_blank">Ember.js</a>,
-                        <a href="https://angularjs.org/" target="_blank">Angular.js</a>, and exposure to <a href="https://facebook.github.io/react/" target="_blank">React</a>.
+                        I have experience working with <a href="https://emberjs.com/" target="_blank">Ember.js</a> and
+                        <a href="https://angularjs.org/" target="_blank">Angular.js</a>.
+                        <br/>
+                        Over the years of my career, I worked with jQuery, Underscore, Lodash, and many other libraries.
                     </p>
                 </div>
                 <div class="skill">
-                    <h4>Templating Engines</h4>
+                    <h4>Templating engines</h4>
                     <p>
-                        <a href="http://mustache.github.io/" target="_blank">Mustache</a> supersets:
-                        <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a> and
-                        <a href="http://twitter.github.io/hogan.js/" target="_blank">Hogan</a>, but nothing beats the
-                        simplicity of <a href="http://underscorejs.org/#template" target="_blank">Underscore.js</a>
+                        <a href="https://mustache.github.io/" target="_blank">Mustache</a> supersets:
+                        <a href="https://handlebarsjs.com/" target="_blank">Handlebars</a> and
+                        <a href="https://twitter.github.io/hogan.js/" target="_blank">Hogan</a>, but nothing beats the
+                        simplicity of <a href="https://underscorejs.org/#template" target="_blank">Underscore.js</a>
                         templates.
                     </p>
                 </div>
@@ -337,12 +331,9 @@
                 <div class="skill">
                     <h4>Server-side scripting</h4>
                     <p>
-                        Expert-level proficiency in <a href="http://nodejs.org/" target="_blank">Node.js</a> using
-                        <a href="http://expressjs.com/" target="_blank">Express</a>,
-                        <a href="https://github.com/petkaantonov/bluebird" target="_blank">Bluebird</a>,
-                        <a href="https://github.com/mikeal/request" target="_blank">Request</a>,
-                        <a href="http://passportjs.org/" target="_blank" title="Passport">Passport</a>. Familiarity with
-                        <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a>, Java, PHP, and ASP backends.
+                        Expert-level proficiency in <a href="https://nodejs.org/" target="_blank">Node.js</a> using
+                        <a href="https://expressjs.com/" target="_blank">Express</a>,
+                        Familiarity with <a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a>, Java, PHP, and ASP backends.
                         Groovy and C for microelectronics projects.
                     </p>
                 </div>
@@ -350,23 +341,21 @@
                 <div class="skill">
                     <h4>DevOps</h4>
                     <p>
-                        Automating builds with <a href="http://gruntjs.com/" target="_blank">Grunt</a>.
-                        Front-end unit testing with <a href="http://karma-runner.github.io" target="_blank">Karma</a>
-                        and <a href="http://jasmine.github.io/" target="_blank">Jasmine</a>.
+                        Bundling static assets with <a href="https://webpack.js.org/" target="_blank">Webpack</a>.
+                        Front-end unit testing with <a href="https://karma-runner.github.io" target="_blank">Karma</a>
+                        and <a href="https://jasmine.github.io/" target="_blank">Jasmine</a>.
                         Back-end tests with <a href="https://github.com/mochajs/mocha" target="_blank">Mocha</a>.
-                        Code coverage reports with <a href="http://gotwarlost.github.io/istanbul/" target="_blank">Istanbul</a>.
-                        E2E tests on <a href="http://www.seleniumhq.org/" target="_blank">Selenium</a> engine
-                        and <a href="http://casperjs.org/" target="_blank">CasperJS</a>.
-                        And running all above in <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> and
-                        desktop browsers. Continuous integration using <a href="http://jenkins-ci.org/" target="_blank">Jenkins</a>
-                        and automatic deployment utilizing <a href="http://heroku.com">Heroku</a> and AWS solutions: EC2, RDS, S3, etc.
+                        Code coverage reports with <a href="https://gotwarlost.github.io/istanbul/" target="_blank">Istanbul</a>.
+                        E2E tests on <a href="https://www.seleniumhq.org/" target="_blank">Selenium</a> engine.
+                        Continuous integration using <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> and <a href="https://travis-ci.org/" target="_blank">Travis</a>.
+                        Automatic deployment utilizing <a href="https://heroku.com" target="_blank">Heroku</a> and AWS solutions: EC2, RDS, S3.
                     </p>
                 </div>
 
                 <div class="skill">
                     <h4>Data Storage</h4>
                     <p>
-                        Integration with <a href="http://www.mongodb.org/">MongoDb</a>, MySQL clients, and Nokia's
+                        Integration with <a href="https://www.mongodb.org/" target="_blank">MongoDb</a>, MySQL clients, and Nokia's
                         storage layers with REST interface. Experience with Redis, SQLite.
                     </p>
                 </div>
@@ -374,7 +363,7 @@
 
             <div class="skills-group-other">
                 <h3 class="description">Other Relevant Skills</h3>
-                <p><a href="http://www.arduino.cc/" target="_blank">Arduino</a>, microelectronics, home automation.</p>
+                <p><a href="https://www.arduino.cc/" target="_blank">Arduino</a>, microelectronics, home automation.</p>
             </div>
 
         </div>
@@ -418,7 +407,7 @@
             </tr>
             <tr>
                 <th>Blog</th>
-                <td><a href="http://uxbin.tumblr.com/" target="_blank">uxbin.tumblr.com</a></td>
+                <td><a href="https://uxbin.tumblr.com/" target="_blank">uxbin.tumblr.com</a></td>
             </tr>
         </table>
 
@@ -452,7 +441,7 @@
                 </a>
             </li>
             <li>
-                <a href="http://uxbin.tumblr.com/" target="_blank" title="Tumblr">
+                <a href="https://uxbin.tumblr.com/" target="_blank" title="Tumblr">
                     <img src="/images/icons/social_tumblr.png" alt="Tumblr" />
                     Tumblr blog
                 </a>
@@ -471,7 +460,7 @@
 </div>
 
 <footer class="wrap-footer">
-    <div class="fr">&copy; Andrei Zharov, 2014.</div>
+    <div class="fr">&copy; Andrei Zharov, 2014-2019.</div>
 </footer>
 
 <script>
