@@ -45,7 +45,7 @@
     "istanbul": "^0.4.5",
     "mocha": "^6.0.2",
     "mocha-istanbul": "^0.3.0",
-    "open": "0.0.5",
+    "open": "6.0.0",
     "qunitjs": "^2.1.1",
     "requirejs": "^2.1.15",
     "sinon": "^7.2.7",
