@@ -32,7 +32,7 @@
     "request": "^2.45.0",
     "serve-favicon": "~2.5.0",
     "serve-static": "^1.6.3",
-    "underscore": "^1.7.0"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "a": "^2.1.0",
