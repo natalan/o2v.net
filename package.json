@@ -20,7 +20,7 @@
     "debug": "~4.1.1",
     "express": "~4.16.4",
     "express-session": "^1.8.2",
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.3",
     "grunt-cli": "^1.2.0",
     "hjs": "~0.0.6",
     "less-middleware": "3.1.x",
