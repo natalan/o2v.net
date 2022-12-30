@@ -43,7 +43,7 @@
     "fs-tools": "^0.5.0",
     "graceful-fs": "^4.1.11",
     "istanbul": "^0.4.5",
-    "mocha": "^6.0.2",
+    "mocha": "^10.2.0",
     "mocha-istanbul": "^0.3.0",
     "open": "6.0.0",
     "qunitjs": "^2.1.1",
